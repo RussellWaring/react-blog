@@ -1,22 +1,27 @@
+import { useState } from 'react';
+
 const Home = () => {
 
-  /* Function for button, added it as the FIRST parameter - the event object e */
-  const handleClick = (e) => {
-    console.log('Hello, yokel', e);
+  /* Variable not REACTIVE */
+  // let name = 'Luigi';
+
+  const [name, setName] = useState('Luigi');
+
+  const [age, setAge] = useState(25);
+
+  const handleClick = () => {
+
+    setName('Mario');
+    setAge(30);
   }
 
-  /* how we REACT to click events, in components */
-  const handleClickAgain = (name, e) => {
-    console.log('hello ' + name, e.target);
-  }
 
-
-/*   dynamic value, anonymous function, event object/parameter -> permitted inside functions where an event occurs  */
+  /* To update message dynamically, we use a hook. Hook is called useState */
   return (
     <div className="home">
       <h2>Homepage</h2>
+      <p>{ name } is { age } years old</p>
       <button onClick={handleClick}>Click me</button>
-      <button onClick={(e) => handleClickAgain('Luigi', e)}>Click me again</button>
     </div>
   );
 }
