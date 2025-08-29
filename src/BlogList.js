@@ -1,4 +1,5 @@
-// Can pass functions as props
+// command for initiating the pseudo-database
+// npx json-server --watch data/db.json --port 8000
 const BlogList = ({blogs,title}) => {
 
   return ( 
