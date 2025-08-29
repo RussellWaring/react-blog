@@ -1,5 +1,5 @@
-// Can pass functions as props (handleDelete)
-const BlogList = ({blogs,title,handleDelete}) => {
+// Can pass functions as props
+const BlogList = ({blogs,title}) => {
 
   return ( 
     <div className="blog-list">
@@ -8,7 +8,6 @@ const BlogList = ({blogs,title,handleDelete}) => {
         <div className="blog-preview" key={blog.id}>
           <h2>{ blog.title }</h2>
           <p>Written by { blog.author }</p>
-          <button onClick={() => handleDelete(blog.id)} >delete blog</button>
         </div>
       ))}
     </div>
