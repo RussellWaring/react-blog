@@ -1,9 +1,9 @@
 {
   "blogs": [
     {
-      "title": "My new website", 
-      "body": "Where did the time go?\n I've been on that lorem ipsum dolar for a minute! Halla-looyah New York City! Been out here - anyway; what y'all doin' to keep busy?", 
-      "author": "Bananaly", 
+      "title": "My new website",
+      "body": "Where did the time go?\n I've been on that lorem ipsum dolar for a minute! Halla-looyah New York City! Been out here - anyway; what y'all doin' to keep busy?",
+      "author": "Bananaly",
       "id": "1"
     },
     {
@@ -17,6 +17,36 @@
       "body": "lorem ipsum...",
       "author": "Bananaly",
       "id": "3"
+    },
+    {
+      "id": "83f3",
+      "title": "Clanker Nation Stand Up!",
+      "body": "Wud up Clank Nache'. Hilarious how fa rwe've come!!!!",
+      "author": "mario"
+    },
+    {
+      "id": "0d14",
+      "title": "Chips Ahoy",
+      "body": "Job market tanked. Thanks AI!",
+      "author": "mario"
+    },
+    {
+      "id": "a195",
+      "title": "Title of a Great Blog!",
+      "body": "Not even human anymore mate check and cheers!",
+      "author": "mario"
+    },
+    {
+      "id": "c08f",
+      "title": "w3r3wr3wr",
+      "body": "3wrw3rr",
+      "author": "mario"
+    },
+    {
+      "id": "4aa5",
+      "title": "Hello And A New DAY!!!!!!!!!",
+      "body": "Yes, a new blog, a new human day!",
+      "author": "yoshi"
     }
   ]
 }
